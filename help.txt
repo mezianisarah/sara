@@ -1,0 +1,11 @@
+git init
+git status
+git add . (ou index.html) 
+git commit -m 'Mon message'
+git commit -am 'Mon message' (ajouter au stage et commiter)
+git log --oneline --all
+git diff (pour voir le changement dans le lignes, --cached pour voir tout les changement)
+git checkout master (ou la hash du commit)
+git reset index.html(unstage un fichier)
+git rm --cacheed (supprimer du stage)
+git reset --hard HEAD~2(retourne de 2 commits en arriere)
